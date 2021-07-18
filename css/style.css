@@ -1,0 +1,39 @@
+body {
+    background-color: #26262d;
+}
+.cerceve {
+    width: 1200px;
+}
+.menu ul li {
+    font-size: 14px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.menu ul li.active {
+    color: #ff9800;
+}
+.menu ul {
+    width: 100px;
+}
+.menu {
+    background-color: #31313a;
+}
+.menu ul li:hover {
+    color: #ff9800;
+}
+.ben, .icerik > div {
+    background-color: #31313a;
+}
+.ben .resim {
+    position: relative;
+    background-image: url(../images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.tab-content {
+    display: none;
+}
+.tab-content.active {
+    display: block
+}
