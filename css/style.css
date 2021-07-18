@@ -37,3 +37,14 @@ body {
 .tab-content.active {
     display: block
 }
+.mesaj {
+    font-weight: 700;
+}
+
+.button {
+    border-radius: 3px;
+    margin-top:10px;
+    padding:5px 64px;
+    color:white;
+    background-color: rgb(55, 66, 71);;
+}
