@@ -48,3 +48,50 @@ body {
     color:white;
     background-color: rgb(55, 66, 71);;
 }
+
+.iletisim {
+    outline:none; 
+    background-color: rgb(139 139 150);
+    border-radius:5px;
+    width: 100%; 
+    color:black;
+    padding: 3px 10px;
+}
+
+progress {
+    -webkit-appearance:none;
+    width:70%;
+    height:17px;
+    border:1px solid #ccc;
+    overflow:hidden;
+    color:#aaa;
+    border-radius:10px;
+}
+.yetenekleric {
+    margin-top:7%;
+}
+
+.hakkimdaic {
+    margin-top:3%;
+}
+    ::-webkit-progress-bar {
+        background:#f1f1f1;
+    }
+    ::-webkit-progress-value {
+        background:#264c5a;
+    }
+    ::moz-progress-bar {
+        background:#f1f1f1;
+    }
+
+.egitimic {
+    margin-top:20px;
+}
+.egitimic a{
+    margin-top:20px;
+	border-left:5px solid #9c2525;
+	font-size:18px;
+	background:#9c252540;
+	padding:5px 10px;
+	font-family: 'Handlee', cursive;
+}
